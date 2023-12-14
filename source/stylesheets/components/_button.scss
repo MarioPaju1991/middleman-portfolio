@@ -1,0 +1,37 @@
+.button-social {
+  padding: 0 16px;
+  position: relative;
+  font-size: 20px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.button-social-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+// visit the webpage button on cards
+
+.btn-flat {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(88, 171, 139, 1) 30%);
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(88, 171, 139, 0.8) 30%);
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+}

@@ -1,0 +1,30 @@
+- name: SuiteFit
+  description: Suite Fit is a moving app that allows users to see if their furniture/items will fit in an apartment.
+  tech: Ruby on rails, JavaScript Stimulus JS, CSS, Bootstrap, PostgreSQL, Heroku
+  image: projects/suitefitlogosmall.png
+  git: https://github.com/MarioPaju1991/SuiteFit
+  url: https://www.suitefit.tech
+
+- name: KnightTime
+  description: A website which allows users to choose and book a medieval experience.
+  tech: Ruby on rails, JavaScript Stimulus JS, CSS, Bootstrap, PostgreSQL, Heroku
+  image: projects/knighttime.png
+  git: https://github.com/MarioPaju1991/KnightTime
+  url: https://knight-time-f246419c41c0.herokuapp.com
+
+- name: Movie Watchlist
+  description: Movie watchlist application lets users create their own favotire movie list.
+  tech: Ruby on rails, CSS, Bootstrap, PostgreSQL, Heroku
+  image: projects/movielist.png
+  git: https://github.com/MarioPaju1991/rails-watch-list
+  url: https://marios-watchlist-1a0a1db8b1e1.herokuapp.com/
+
+# - name: Final project
+#   description: Decent description of the app
+#   image: projects/placeholder.png
+#   url: https://www.google.com
+
+# - name: Yelp
+#   description: Decent description of the app
+#   image: projects/placeholder.png
+#   url: https://www.google.com
