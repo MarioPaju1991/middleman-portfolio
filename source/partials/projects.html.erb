@@ -17,13 +17,18 @@
               </div>
               <p><%= project.description %></p>
               <p><%= project.tech %></p>
-              <% link_to project.url, class: 'links mx-2', target: '_blank' do %>
-                <button class="btn btn-flat">Visit the website</button>
-              <% end %>
+              <div class="d-flex">
+                <% link_to project.url, class: 'links mx-2', target: '_blank' do %>
+                  <button class="btn btn-flat">Visit the website</button>
+                <% end %>
+                <%# <% link_to project.url, class: 'links mx-2', target: '_blank' do %>
+                  <%# <button class="btn btn-flat">Visit the website</button> %>
+                  <%# <% end %>
+                </div>
+              </div>
             </div>
-          </div>
-        <% end %>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
-</div>
