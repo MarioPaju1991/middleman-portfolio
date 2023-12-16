@@ -1,16 +1,13 @@
 .cards {
   display: grid;
-  // grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 16px;
 }
 
 .card-product {
   overflow: hidden;
-  height: 150px;
   background: white;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
-  display: flex;
-  align-items: center;
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -21,11 +18,9 @@
 }
 
 .card-product img {
-  height: 100%;
-  max-width: 100%;
-  width: 160px;
-  object-fit: cover;
-  border-radius: 15px 0 0 15px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
 }
 
 .card-product h2 {
@@ -39,68 +34,61 @@
   line-height: 1.4;
   opacity: .7;
   margin: 0;
-  // margin-bottom: 0;
-  // margin-top: 0px;
-  font-weight: bold;
 }
 
 .card-product .card-product-infos {
-  flex-grow: 1;
   padding: 16px;
-  &:hover {
-    .external-link {
-      opacity: 1;
-    }
-  }
 }
 
 .external-link {
   margin-left: 8px;
-  opacity: 0;
+  opacity: 1;
   color: $gray;
   transition: opacity 1s;
-  &:hover {
-    cursor: pointer;
-    color: $gray
-  }
 }
 
+.external-link:hover {
+  cursor: pointer;
+  color: $gray;
+}
 
-@media (max-width: 767px) {
+/* Responsive styles */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
   }
 
-  .card-product {
-    flex-direction: column;
-    height: auto;
+  /* Adjusted button styles for better visibility on mobile */
+  .btn-flat {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(88, 171, 139, 1) 30%);
+    color: white;
+    padding: 8px 12px; /* Adjusted padding for smaller screens */
+    font-size: 12px; /* Adjusted font size for smaller screens */
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
   }
 
-  .card-product img {
-    border-radius: 15px 15px 0 0;
-  }
-
-  .external-link {
-    opacity: 1;
+  .btn-flat:hover {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(88, 171, 139, 0.8) 30%);
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
   }
 }
 
-
-@media (min-width: 768px) and (max-width: 1199px) {
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted grid for larger screens */
   }
 }
-// Large devices (desktops, 992px and up)
+
+/* Larger screens */
 @media (min-width: 992px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-// // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Adjusted grid for larger screens */
   }
 }
