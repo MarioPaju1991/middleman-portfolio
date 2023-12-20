@@ -12,6 +12,7 @@
   git: https://github.com/MarioPaju1991/KnightTime
   url: https://knight-time-f246419c41c0.herokuapp.com
 
+
 - name: Movie Watchlist
   description: Movie watchlist application lets users create their own favotire movie list.
   tech: Ruby on rails, CSS, Bootstrap, PostgreSQL, Heroku
@@ -19,6 +20,12 @@
   git: https://github.com/MarioPaju1991/rails-watch-list
   url: https://marios-watchlist-1a0a1db8b1e1.herokuapp.com/
 
+- name: Gif search
+  description: Small app built using React to search fun GIFs.
+  tech: React, Javascript, HTML, CSS
+  image: projects/gif_search.png
+  git: https://github.com/MarioPaju1991/workshop
+  url: https://mariopaju1991.github.io/workshop/
 # - name: Final project
 #   description: Decent description of the app
 #   image: projects/placeholder.png
