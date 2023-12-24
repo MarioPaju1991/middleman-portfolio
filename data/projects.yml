@@ -26,6 +26,14 @@
   image: projects/gif_search.png
   git: https://github.com/MarioPaju1991/workshop
   url: https://mariopaju1991.github.io/workshop/
+
+- name: Simple Airbnb
+  description: In progress
+  tech: HTML, CSS, Ruby on Rails
+  image: projects/.png
+  git: https://github.com/MarioPaju1991/
+  url: https://mariopaju1991.github.io/
+
 # - name: Final project
 #   description: Decent description of the app
 #   image: projects/placeholder.png
