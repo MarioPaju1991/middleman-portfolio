@@ -28,9 +28,9 @@
   url: https://mariopaju1991.github.io/workshop/
 
 - name: Simple Airbnb
-  description: In progress
+  description: Currently in progress
   tech: HTML, CSS, Ruby on Rails
-  image: projects/.png
+  image: projects/flat3.jpg
   git: https://github.com/MarioPaju1991/
   url: https://mariopaju1991.github.io/
 
