@@ -34,6 +34,13 @@
   git: https://github.com/MarioPaju1991/rails-simple-airbnb
   url: https://mariopaju1991.github.io/rails-simple-airbnb/
 
+- name: Secret project
+  description: In process
+  tech: HTML, CSS, Ruby on Rails
+  image: projects/xfiles.jpg
+  git: https://github.com/MarioPaju1991/
+  url: https://mariopaju1991.github.io/
+
 # - name: Final project
 #   description: Decent description of the app
 #   image: projects/placeholder.png
