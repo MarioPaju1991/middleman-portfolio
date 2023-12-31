@@ -36,7 +36,7 @@
 
 - name: Secret project
   description: In process
-  tech: HTML, CSS, Ruby on Rails
+  tech: HTML, CSS, Ruby on Rails, Javascript
   image: projects/xfiles.jpg
   git: https://github.com/MarioPaju1991/
   url: https://mariopaju1991.github.io/
