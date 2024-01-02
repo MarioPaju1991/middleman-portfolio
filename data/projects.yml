@@ -10,7 +10,7 @@
   tech: Ruby on rails, JavaScript Stimulus JS, CSS, Bootstrap, PostgreSQL, Heroku
   image: projects/knighttime.png
   git: https://github.com/MarioPaju1991/KnightTime
-  url: https://knight-time-f246419c41c0.herokuapp.com
+  url: https://knighttime-55359757e6af.herokuapp.com/
 
 
 - name: Movie Watchlist
