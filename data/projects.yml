@@ -34,11 +34,11 @@
   git: https://github.com/MarioPaju1991/rails-simple-airbnb
   url: https://mariopaju1991.github.io/rails-simple-airbnb/
 
-- name: Testing in Ruby
-  description: In process
-  tech: Testing Rubi with RSpec
+- name: Testing Ruby with RSpec
+  description: Udemy course project
+  tech: Ruby
   image: projects/ruby.jpg
-  git: https://github.com/MarioPaju1991/
+  git: https://github.com/MarioPaju1991/rspec-course
   url: https://www.udemy.com/course/testing-ruby-with-rspec/
 
 # - name: Final project
