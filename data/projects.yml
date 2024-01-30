@@ -34,12 +34,12 @@
   git: https://github.com/MarioPaju1991/rails-simple-airbnb
   url: https://mariopaju1991.github.io/rails-simple-airbnb/
 
-- name: Secret project
-  description: In process
-  tech: HTML, CSS, Ruby on Rails, Javascript
+- name: Testing Ruby with RSpec
+  description: Udemy course project
+  tech: Ruby
   image: projects/ruby.jpg
-  git: https://github.com/MarioPaju1991/
-  url: https://mariopaju1991.github.io/
+  git: https://github.com/MarioPaju1991/rspec-course
+  url: https://www.udemy.com/course/testing-ruby-with-rspec/
 
 # - name: Final project
 #   description: Decent description of the app
