@@ -41,6 +41,13 @@
   git: https://github.com/MarioPaju1991/rspec-course
   url: https://www.udemy.com/course/testing-ruby-with-rspec/
 
+- name: Weather App
+  description: Weather app built using React
+  tech: React+Vite
+  image: projects/weather.jpg
+  git: https://github.com/MarioPaju1991/react-weather
+  url: https://mariopaju1991.github.io/react-weather/
+
 # - name: Final project
 #   description: Decent description of the app
 #   image: projects/placeholder.png
