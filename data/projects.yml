@@ -48,6 +48,13 @@
   git: https://github.com/MarioPaju1991/react-weather
   url: https://mariopaju1991.github.io/react-weather/
 
+- name: Calculator
+  description: Calculator app built using React
+  tech: React+Vite
+  image: projects/super_mario.jpg
+  git: https://github.com/MarioPaju1991/Calculator
+  url: https://mariopaju1991.github.io/Calculator/
+
 # - name: Final project
 #   description: Decent description of the app
 #   image: projects/placeholder.png
