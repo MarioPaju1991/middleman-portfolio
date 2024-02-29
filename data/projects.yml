@@ -12,7 +12,6 @@
   git: https://github.com/MarioPaju1991/KnightTime
   url: https://knighttime-55359757e6af.herokuapp.com/
 
-
 - name: Movie Watchlist
   description: Movie watchlist application lets users create their own favotire movie list.
   tech: Ruby on rails, CSS, Bootstrap, PostgreSQL, Heroku
@@ -55,6 +54,12 @@
   git: https://github.com/MarioPaju1991/Calculator
   url: https://mariopaju1991.github.io/Calculator/
 
+- name: New project
+  description: Coming soon
+  tech:
+  image: projects/coming.jpeg
+  git:
+  url:
 # - name: Final project
 #   description: Decent description of the app
 #   image: projects/placeholder.png
