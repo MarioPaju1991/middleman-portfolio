@@ -54,6 +54,13 @@
   git: https://github.com/MarioPaju1991/Calculator
   url: https://mariopaju1991.github.io/Calculator/
 
+- name: CSS Border Animation
+  description: Moving border animation created using CSS
+  tech: HTML, CSS
+  image: projects/css-border.jpg
+  git: https://github.com/MarioPaju1991/css-cards
+  url: https://mariopaju1991.github.io/css-cards/
+
 - name: New project
   description: Coming soon
   tech:
