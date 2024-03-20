@@ -61,12 +61,20 @@
   git: https://github.com/MarioPaju1991/css-cards
   url: https://mariopaju1991.github.io/css-cards/
 
+- name: Countdown timer
+  description: Simple countdown timer which counts how much time is left until the end of 2024
+  tech: HTML, CSS & JavaScript
+  image: projects/countdown.jpg
+  git: https://github.com/MarioPaju1991/countdown-timer
+  url: https://mariopaju1991.github.io/countdown-timer/
+
 - name: New project
   description: Coming soon
   tech:
   image: projects/coming.jpeg
   git:
   url:
+
 # - name: Final project
 #   description: Decent description of the app
 #   image: projects/placeholder.png
