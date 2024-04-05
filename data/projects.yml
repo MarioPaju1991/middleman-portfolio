@@ -68,7 +68,7 @@
   git: https://github.com/MarioPaju1991/countdown-timer
   url: https://mariopaju1991.github.io/countdown-timer/
 
-- name: New project
+- name: Tic-Tac-Toe Game
   description: Coming soon
   tech: HTML, CSS, JavaScript
   image: projects/coming.jpeg
