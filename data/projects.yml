@@ -1,23 +1,37 @@
-- name: SuiteFit
-  description: Suite Fit is a moving app that allows users to see if their furniture/items will fit in an apartment.
-  tech: Ruby on rails, JavaScript Stimulus JS, CSS, Bootstrap, PostgreSQL, Heroku
-  image: projects/suitefitlogosmall.png
-  git: https://github.com/MarioPaju1991/SuiteFit
-  url: https://www.suitefit.tech
-
 - name: KnightTime
   description: A website which allows users to choose and book a medieval experience.
   tech: Ruby on rails, JavaScript Stimulus JS, CSS, Bootstrap, PostgreSQL, Heroku
   image: projects/knighttime.png
   git: https://github.com/MarioPaju1991/KnightTime
-  url: https://knighttime-55359757e6af.herokuapp.com/
+  url: https://knighttime-dc3e53d30987.herokuapp.com/
 
-- name: Movie Watchlist
-  description: Movie watchlist application lets users create their own favotire movie list.
-  tech: Ruby on rails, CSS, Bootstrap, PostgreSQL, Heroku
-  image: projects/movielist.png
-  git: https://github.com/MarioPaju1991/rails-watch-list
-  url: https://marios-watchlist-1a0a1db8b1e1.herokuapp.com/
+- name: SuiteFit
+  description: Suite Fit is a moving app that allows users to see if their furniture/items will fit in an apartment.
+  tech: Ruby on rails, JavaScript Stimulus JS, CSS, Bootstrap, PostgreSQL, Heroku
+  image: projects/suitefitlogosmall.png
+  git: https://github.com/MarioPaju1991/SuiteFit
+  url: https://suite-fit-rlmp44-5e8ff51180b0.herokuapp.com/
+
+- name: Calculator
+  description: Calculator app built using React
+  tech: React+Vite
+  image: projects/super_mario.jpg
+  git: https://github.com/MarioPaju1991/Calculator
+  url: https://mariopaju1991.github.io/Calculator/
+
+- name: Weather App
+  description: Weather app built using React
+  tech: React+Vite
+  image: projects/weather.jpg
+  git: https://github.com/MarioPaju1991/react-weather
+  url: https://mariopaju1991.github.io/react-weather/
+
+- name: CSS Border Animation
+  description: Moving border animation created using CSS
+  tech: HTML, CSS
+  image: projects/css-border.jpg
+  git: https://github.com/MarioPaju1991/css-cards
+  url: https://mariopaju1991.github.io/css-cards/
 
 - name: Gif search
   description: Small app built using React to search fun GIFs.
@@ -25,6 +39,13 @@
   image: projects/gif_search.png
   git: https://github.com/MarioPaju1991/workshop
   url: https://mariopaju1991.github.io/workshop/
+
+- name: Movie Watchlist
+  description: Movie watchlist application lets users create their own favotire movie list.
+  tech: Ruby on rails, CSS, Bootstrap, PostgreSQL, Heroku
+  image: projects/movielist.png
+  git: https://github.com/MarioPaju1991/rails-watch-list
+  url: https://github.com/MarioPaju1991/rails-watch-list
 
 - name: Simple Airbnb
   description: Super simple Airbnb style website
@@ -39,27 +60,6 @@
   image: projects/ruby.jpg
   git: https://github.com/MarioPaju1991/rspec-course
   url: https://www.udemy.com/course/testing-ruby-with-rspec/
-
-- name: Weather App
-  description: Weather app built using React
-  tech: React+Vite
-  image: projects/weather.jpg
-  git: https://github.com/MarioPaju1991/react-weather
-  url: https://mariopaju1991.github.io/react-weather/
-
-- name: Calculator
-  description: Calculator app built using React
-  tech: React+Vite
-  image: projects/super_mario.jpg
-  git: https://github.com/MarioPaju1991/Calculator
-  url: https://mariopaju1991.github.io/Calculator/
-
-- name: CSS Border Animation
-  description: Moving border animation created using CSS
-  tech: HTML, CSS
-  image: projects/css-border.jpg
-  git: https://github.com/MarioPaju1991/css-cards
-  url: https://mariopaju1991.github.io/css-cards/
 
 - name: Countdown timer
   description: Simple countdown timer which counts how much time is left until the end of 2024
